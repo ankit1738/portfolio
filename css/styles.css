@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html{
+    scroll-behavior: smooth;
+} 
+
+body{
+    background:black;    
+} 
+
+.nav-color a{
+    color: white;
+}
+
+.navbar{
+    font-family: 'Comfortaa', cursive;
+}
+
+.navbar-nav li {
+    padding: 0 1rem 0 1rem;
+}
+
+.navbar-nav li:hover a{
+    border-bottom: 2px solid white;
+    //border-radius: 5px;
+    
+}
+
+
+.div-1{
+    background:#1aa3ff;
+    height: 700px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-top: 15rem;
+}
+
+#about{
+   
+}
+
+.div-2{
+    overflow: hidden;
+    background:#00cc66;
+    height: 700px;
+    padding: 5rem 0 10rem 0;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.div-2-2{
+  padding:0 5rem 0 5rem;
+}
+
+#name{
+    font-size: 5vw;
+    margin: 0;
+}
+#intro-1{
+    font-size: 3vw;
+    color: white;
+}
+
+#avatar{
+    border: 5px white solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 2rem;
+}
+
+#arrow{
+  height:150px;
+  width: 300px;
+  transform: rotate(200deg);
+
+}
+
+.intro-2{
+    font-size: 4vw;
+    margin-top:6rem;
+    color: #404040;
+}
+
+.div-3{
+  background-color: #1aa3ff;
+  height: 700px;
+  text-align: center;
+  padding: 2rem;
+}
+
+#title{
+  font-family: 'Comfortaa', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-bottom: 5rem;
+}
+
+.tools{
+  padding: 0 15rem 0 15rem;
+}
+
+.tools ul{
+  margin-top: 0rem;
+}
+.tools ul li{
+  list-style: none;
+  font-size: 35px;
+font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.div-4{
+  background: #00cc66;
+  text-align: center;
+  overflow: hidden;
+  padding: 2rem;
+  height: 700px;
+}
+
+.modal-button{
+  background-color: transparent;
+  border-color: white;
+}
+
+.modal-button:hover{
+  background-color:white;
+  color:#00cc66;
+  border-color: white;
+  font-weight: 500;
+}
+
+.div-5{
+  background-color: #1aa3ff;
+  height: 700px;
+  text-align: center;
+  padding: 2rem 10rem 2rem 10rem;
+}
+
+.intern{
+  margin-top: 2rem;
+}
+.intern h4{
+  color: white;
+}
+
+.intern div:nth-child(odd) {
+  border-right:1px solid white;
+}
+.intern div{
+ margin-top: 5rem;
+}
+
+#more{
+  line-height: 1;
+}
+
+.div-6{
+  background-color: #00cc66;
+  height: 350px;
+  text-align: center;
+  padding: 2rem 10rem 2rem 10rem;
+}
+
+.contact i{
+  font-size: 50px;
+}
+
+.contact a{
+  color: white;
+}
+
+.mymodal{
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  z-index: 5;
+  position: fixed;
+  align-items: center;
+  left:25%;
+  top: 25%;
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 10px;
+  transition:  1s ;
+}
+
+.closeModal{
+  left: -700px;
+}
+
+
