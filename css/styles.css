@@ -6,7 +6,7 @@ html{
 }  
 
 body{
-    background:black;    
+    background:black;   
 } 
 
 .nav-color a{
@@ -90,7 +90,7 @@ body{
   padding: 2rem;
 }
 
-#title{
+.title{
   font-family: 'Comfortaa', cursive;
   font-size: 50px;
   text-decoration: underline;
@@ -217,6 +217,22 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-  
+  .title{
+    font-size: 20px;
+  }
+  .div-1, .div-2, .div-3, .div-4, .div-5, .div-6, .education{
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .tools{
+    padding: 0;
+  }
+  .intern, .intern div{
+    margin: 0;
+  }
+
+  .intern div{
+    border-right: none!important;
+    border-left: 1px solid white;
+  }
 }
 
