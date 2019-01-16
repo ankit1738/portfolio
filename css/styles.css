@@ -220,7 +220,7 @@ body{
   .title{
     font-size: 20px;
   }
-  .div-1, .div-2, .div-3, .div-4, .div-5, .div-6, .education{
+  .div-2, .div-3, .div-4, .div-5, .div-6, .education{
     padding: 2rem 2rem 2rem 2rem;
   }
   .tools{
@@ -233,6 +233,10 @@ body{
   .intern div{
     border-right: none!important;
     border-left: 1px solid white;
+  }
+
+  .contact i{
+    font-size: 25px;
   }
 }
 
