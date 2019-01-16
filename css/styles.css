@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url('https://fonts.googleapis.com/css?family=Rubik');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 html{
     scroll-behavior: smooth;
-} 
+}  
 
 body{
     background:black;    
@@ -47,7 +43,7 @@ body{
 .div-2{
     overflow: hidden;
     background:#00cc66;
-    height: 700px;
+    //height: 700px;
     padding: 5rem 0 10rem 0;
     font-family: 'Comfortaa', cursive;
     text-align: center;
@@ -88,8 +84,8 @@ body{
 }
 
 .div-3{
-  background-color: #1aa3ff;
-  height: 700px;
+  background-color: #00cc66;
+  //height: 700px;
   text-align: center;
   padding: 2rem;
 }
@@ -109,18 +105,19 @@ body{
   margin-top: 0rem;
 }
 .tools ul li{
+  text-align: left;
   list-style: none;
-  font-size: 35px;
-font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
 .div-4{
-  background: #00cc66;
+  background: #1aa3ff;
   text-align: center;
   overflow: hidden;
   padding: 2rem;
-  height: 700px;
+  //height: 700px;
 }
 
 .modal-button{
@@ -136,8 +133,8 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .div-5{
-  background-color: #1aa3ff;
-  height: 700px;
+  background-color: #00cc66;
+  //height: 700px;
   text-align: center;
   padding: 2rem 10rem 2rem 10rem;
 }
@@ -161,8 +158,8 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .div-6{
-  background-color: #00cc66;
-  height: 350px;
+  background-color: #1aa3ff;
+  //height: 350px;
   text-align: center;
   padding: 2rem 10rem 2rem 10rem;
 }
@@ -191,7 +188,35 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .closeModal{
-  left: -700px;
+  left: -50vw;
 }
 
+.progress-bar{
+  background-color:coral;
+}
+
+.progress{
+  border-radius: 0;
+  height:1.25rem;
+}
+
+.tools hr{
+  background-color:slategray;
+}
+
+.education{
+  text-align: center;
+  padding: 2rem 10rem 2rem 10rem;
+  background-color: #1aa3ff;
+}
+
+.education .row{
+  padding: 0.5rem;
+  text-align: left;
+  border-left: 2px  solid coral;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
 
