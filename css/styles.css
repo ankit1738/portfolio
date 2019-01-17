@@ -48,7 +48,12 @@ body{
 }
 
 .col-6{
-  width: 50%;
+  width: 48%;
+  float: left;
+}
+
+.col-2{
+  width: 16%;
   float: left;
 }
 
@@ -149,6 +154,7 @@ body{
 .modal-button{
   background-color: transparent;
   border-color: white;
+  margin-bottom: 1rem;
 }
 
 .modal-button:hover{
@@ -210,11 +216,11 @@ body{
   border: 2px solid white;
   padding: 1rem;
   border-radius: 10px;
-  transition:  1s ;
+  transition: 3s linear;
 }
 
 .closeModal{
-  left: -50vw;
+ display: none;
 }
 
 .progress-bar{
@@ -228,6 +234,10 @@ body{
 
 .tools hr{
   background-color:slategray;
+}
+
+hr{
+  opacity: 0.5;
 }
 
 .education{

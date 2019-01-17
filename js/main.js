@@ -1,37 +1,33 @@
-$(document).ready(function(){
 
-	$("#modal-button-torsokart").click(function(){
-		$("#modal-torsokart").removeClass("closeModal");
-	});
+	document.getElementById("modal-button-torsokart").addEventListener("click", (function(){
+		document.getElementById("modal-torsokart").classList.remove("closeModal");
+	}));
 
-	$("#close-torsokart").click(function(){
-		$("#modal-torsokart").addClass("closeModal");
-	});
+	document.getElementById("close-torsokart").addEventListener("click", (function(){
+		document.getElementById("modal-torsokart").classList.add("closeModal");
+	}));
 
-	$("#modal-button-blogweb").click(function(){
-		$("#modal-blogweb").removeClass("closeModal");
-	});
+	document.getElementById("modal-button-blogweb").addEventListener("click", (function(){
+		document.getElementById("modal-blogweb").classList.remove("closeModal");
+	}));
 
-	$("#close-blogweb").click(function(){
-		$("#modal-blogweb").addClass("closeModal");
-	});
+	document.getElementById("close-blogweb").addEventListener("click", (function(){
+		document.getElementById("modal-blogweb").classList.add("closeModal");
+	}));
 
-	$("#modal-button-webomania").click(function(){
-		$("#modal-webomania").removeClass("closeModal");
-	});
+	document.getElementById("modal-button-webomania").addEventListener("click", (function(){
+		document.getElementById("modal-webomania").classList.remove("closeModal");
+	}));
 
-	$("#close-webomania").click(function(){
-		$("#modal-webomania").addClass("closeModal");
-	});
+	document.getElementById("close-webomania").addEventListener("click", (function(){
+		document.getElementById("modal-webomania").classList.add("closeModal");
+	}));
 
-	$("#modal-button-shopapp").click(function(){
-		$("#modal-shopapp").removeClass("closeModal");
-	});
+	document.getElementById("modal-button-shopapp").addEventListener("click", (function(){
+		document.getElementById("modal-shopapp").classList.remove("closeModal");
+	}));
 
-	$("#close-shopapp").click(function(){
-		$("#modal-shopapp").addClass("closeModal");
-	});
-	
+	document.getElementById("close-shopapp").addEventListener("click", (function(){
+		document.getElementById("modal-shopapp").classList.add("closeModal");
+	}));
 
-
-}); 
