@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>My Portfolio</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"></link>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"></link> -->
         <link rel="stylesheet" href="css/styles.css"></link>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,30 +10,24 @@
     <body>
 
 	<div class="wrapper">
-        <nav class="navbar navbar-expand-lg fixed-top nav-color">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars fa-2x"></i></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+        <nav class="navigation">
+                <ul class="">
+                <li class="">
                     <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-item" id="nav-portfolio">
+                <li class="" id="nav-portfolio">
                     <a class="nav-link" href="#about">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="">
                     <a class="nav-link" href="#technologies">Technologies</a>
                 </li>
-                <li class="nav-item">
+                <li class="">
                 	<a class="nav-link" href="#internship">Internship</a>
                 </li>
-                <li class="nav-item">
+                <li class="">
                 	<a class="nav-link" href="#contact">Contact</a>
-                </li>
-                
+                </li>                
                 </ul>
-            </div>
         </nav>
         <div class="mymodal closeModal" id="modal-torsokart">
         	<h3>Torsokart</h3>
@@ -47,8 +41,8 @@
 		      	</ul>
         	</div>
         	<hr>
-        	<button class="btn btn-secondary" id="close-torsokart">Close</button>
-        	<a href="https://www.torsokart.in" target="_blank" class="btn btn-primary">View Project</a>
+        	<button class="button close" id="close-torsokart">Close</button>
+        	<a href="https://www.torsokart.in" target="_blank" class="button-link">View Project</a>
         </div>
 
         <div class="mymodal closeModal" id="modal-blogweb">
@@ -62,8 +56,8 @@
 		      	</ul>
         	</div>
         	<hr>
-        	<button class="btn btn-secondary" id="close-blogweb">Close</button>
-        	<a href="https://polar-thicket-86538.herokuapp.com" target="_blank" class="btn btn-primary">View Project</a>
+        	<button class="button close" id="close-blogweb">Close</button>
+        	<a href="https://polar-thicket-86538.herokuapp.com" target="_blank" class="button-link">View Project</a>
         </div>
 
         <div class="mymodal closeModal" id="modal-webomania">
@@ -78,8 +72,8 @@
 		      	</ul>
         	</div>
         	<hr>
-        	<button class="btn btn-secondary" id="close-webomania">Close</button>
-        	<a href="https://webomania.herokuapp.com/" target="_blank" class="btn btn-primary">View Project</a>
+        	<button class="button close" id="close-webomania">Close</button>
+        	<a href="https://webomania.herokuapp.com/" target="_blank" class="button-link">View Project</a>
         </div>
 
         <div class="mymodal closeModal" id="modal-shopapp">
@@ -94,8 +88,8 @@
 		      	</ul>
         	</div>
         	<hr>
-        	<button class="btn btn-secondary" id="close-shopapp">Close</button>
-        	<a href="#"class="btn btn-primary">Visit</a>
+        	<button class="button close" id="close-shopapp">Close</button>
+        	<a href="#"class="button-link">Visit</a>
         </div>
 
         <div class="div-1" id="home">
@@ -107,7 +101,7 @@
 
         <div  class="div-2" id="about">
             <div class="row">
-                <div class="div-2-2 col-lg-6">
+                <div class="div-2-2 col-6">
                     <img src="images/demo-img2.jpg" alt="AVATAR" id="avatar">
                     <p><b>Ankit Kumar</b></p>
                     <p>Full stack developer by profession and graphic designer by choice. Energetic person who is easy to talk to and focused on the detail.
@@ -116,7 +110,7 @@
 					Not afraid to fail and struggle as a part of learning.
 </p>
                 </div>
-                <div class="div-2-3 col-lg-6">
+                <div class="div-2-3 col-6">
                     <p id="" class="intro-2">Hey! Look, That's Me</p>
                     <i class="fas fa-long-arrow-alt-left" style="font-size: 200px"></i>
                 </div>
@@ -160,105 +154,105 @@
         <div class="div-3" id="technologies">
         	<h3 class="title">Here's a few tools & technologies I use</h3>
         	<div class="tools row">
-        		<div class="col-lg-6">
+        		<div class="col-6">
         			<ul>
 						<li>C 
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+								<div class="progress-bar" style="width: 75%;">75%</div>
 							</div>
 							<hr>
 						</li>
         				<li>HTML 
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+								<div class="progress-bar"style="width: 80%;">80%</div>
 							</div>
 							<hr>
 						</li>
         				<li>CSS
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+								<div class="progress-bar" style="width: 75%;">75%</div>
 							</div>
 							<hr>
 						</li>
         				<li>JavaScript
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+								<div class="progress-bar" style="width: 65%;">65%</div>
 							</div>
 							<hr>
 						</li>
         				<li>jQuery
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+								<div class="progress-bar" style="width: 65%;">65%</div>
 							</div>
 							<hr>
 						</li>
         				<li>Bootstrap
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+								<div class="progress-bar" style="width: 90%;">90%</div>
 							</div>
 							<hr>
 						</li>
         				<li>Adobe Photoshop
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+								<div class="progress-bar" style="width: 90%;">90%</div>
 							</div>
 							<hr>
 						</li>
 						<li>Adobe InDesign
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+								<div class="progress-bar" style="width: 80%;">80%</div>
 							</div>
 							<hr>
 						</li>
         			</ul>
         		</div>
-        		<div class="col-lg-6">
+        		<div class="col-6">
         			<ul>
 						<li>C++ 
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+								<div class="progress-bar" style="width: 75%;">75%</div>
 							</div>
 							<hr>
 						</li>
 						<li>Java 
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+								<div class="progress-bar" style="width: 55%;">55%</div>
 							</div>
 							<hr>
 						</li>
         				<li>Nodejs
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+								<div class="progress-bar" style="width: 65%;">65%</div>
 							</div>
 							<hr>
 						</li>
         				<li>Express.js
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+								<div class="progress-bar" style="width: 70%;">70%</div>
 							</div>
 							<hr>
 						</li>
         				<li>Angularjs
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+								<div class="progress-bar" style="width: 50%;">50%</div>
 							</div>
 							<hr>
 						</li>
         				<li>Mongodb
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+								<div class="progress-bar" style="width: 60%;">60%</div>
 							</div>
 							<hr>
 						</li>
         				<li>SQL
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+								<div class="progress-bar" style="width: 60%;">60%</div>
 							</div>
 							<hr>
 						</li>
         				<li>Adobe Illustrator
 							<div class="progress">
-								<div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+								<div class="progress-bar" style="width: 70%;">70%</div>
 							</div>
 							<hr>
 						</li>
@@ -272,7 +266,7 @@
         	<div class="row">
         		<div class="col-lg-3">
         			<h3>Torsokart</h3>
-        			<button type="button" class="btn btn-primary modal-button" id="modal-button-torsokart">
+        			<button type="button" class="button modal-button" id="modal-button-torsokart">
 					  View Details
 					</button>
         		</div>
@@ -280,7 +274,7 @@
         		<div class="col-lg-3"><img src="images/two.png" height="150px" width="250px"></div>
         		<div class="col-lg-3">
         			<h3>BlogWeb</h3>
-        			<button type="button" class="btn btn-primary modal-button" id="modal-button-blogweb">
+        			<button type="button" class="button modal-button" id="modal-button-blogweb">
 					  View Details
 					</button>
         		</div>
@@ -289,7 +283,7 @@
         	<div class="row">
         		<div class="col-lg-3">
         			<h3>Webomania Project</h3>
-        			<button type="button" class="btn btn-primary modal-button" id="modal-button-webomania">
+        			<button type="button" class="button modal-button" id="modal-button-webomania">
 					  View Details
 					</button>
         		</div>
@@ -297,7 +291,7 @@
         		<div class="col-lg-3"><img src="images/four.png" height="150px" width="250px"></div>
         		<div class="col-lg-3">
         			<h3>ShopApp	</h3>
-        			<button type="button" class="btn btn-primary modal-button" id="modal-button-shopapp">
+        			<button type="button" class="button modal-button" id="modal-button-shopapp">
 					  View Details
 					</button>
         		</div>

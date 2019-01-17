@@ -6,27 +6,51 @@ html{
 }  
 
 body{
-    background:black;   
+    background:black; 
+    padding: 0;
+    margin:0;  
 } 
 
 .nav-color a{
     color: white;
 }
 
-.navbar{
+.navigation{
     font-family: 'Comfortaa', cursive;
+    position: fixed;
+    right: 0;
 }
 
-.navbar-nav li {
-    padding: 0 1rem 0 1rem;
+.navigation ul{
+  text-decoration: none;
 }
 
-.navbar-nav li:hover a{
-    border-bottom: 2px solid white;
-    //border-radius: 5px;
-    
+.navigation ul li{
+  float: left;
+  margin: 0rem;
+  list-style: none;
+  padding: 1rem;
 }
 
+.navigation ul li:hover{
+  border-bottom: 2px solid white;
+}
+
+.navigation ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.row{
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+.col-6{
+  width: 50%;
+  float: left;
+}
 
 .div-1{
     background:#1aa3ff;
@@ -49,9 +73,9 @@ body{
     text-align: center;
 }
 
-.div-2-2{
+/*.div-2-2{
   padding:0 5rem 0 5rem;
-}
+}*/
 
 #name{
     font-size: 5vw;
@@ -98,7 +122,9 @@ body{
 }
 
 .tools{
-  padding: 0 15rem 0 15rem;
+  /*padding: 0 15rem 0 15rem;*/
+  margin: 0 auto;
+  width: 80%;
 }
 
 .tools ul{
@@ -240,3 +266,19 @@ body{
   }
 }
 
+.button{
+      border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-link{
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+}
